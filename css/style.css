@@ -35,8 +35,8 @@ body {
   margin: var(--space-md);
   align-items: start;
   justify-content: space-between;
-  /* font-family: 'Old Standard TT', serif; */
-  font-family: 'Knif Mono', 'Space Mono';
+  /* font-family: 'Space Mono', monospaced; */
+  font-family: 'Knif Mono';
   /* font-family: 'Montserrat'; */
   font-size: 0.8rem;
   line-height: 1.34;
