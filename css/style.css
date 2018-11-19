@@ -3,11 +3,12 @@
 }
 
 @font-face {
-	font-family: 'Knif Mono';
-  src: url('/fonts/Knif_Mono/aa_knif-mono.ttf') format('tff'),
-        url('/fonts/Knif_Mono/aa_knif-mono.woff') format('woff');
-	font-weight: normal;
-	font-style: normal;
+  font-family: 'Knif Mono';
+  src: url('KnifMono-Regular.woff2') format('woff2'),
+      url('KnifMono-Regular.woff') format('woff'),
+      url('KnifMono-Regular.ttf') format('ttf');
+  font-weight: normal;
+  font-style: normal;
 }
 
 html {
@@ -34,7 +35,8 @@ body {
   margin: var(--space-md);
   align-items: start;
   justify-content: space-between;
-  font-family: 'Knif Mono';
+  /* font-family: 'Old Standard TT', serif; */
+  font-family: 'Knif Mono', 'Space Mono';
   /* font-family: 'Montserrat'; */
   font-size: 0.8rem;
   line-height: 1.34;
