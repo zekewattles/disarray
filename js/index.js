@@ -17,10 +17,12 @@ function randomizeForm() {
   }
 
   const strings = [
-    'INDETERMINACY',
-    'ORDER', 'STRUCTURE', 'SEQUENCE', 'METHOD', 'SYSTEM',
-    'CHAOS', 'DISARRAY', 'DISORDER', 'HAVOC', 'ENTROPY',
-    '••••••••••', '++++++++++', '$$$$$$$$$$', '          ',
+    'I gave up the notion of communication as impractical in my case.',
+    'I have nothing to say and I am saying it.',
+    'We need not destroy the past. It is gone.',
+    'FLUXUS', ',,,,,,,,', 'ORDER AND CHAOS', 'CONVERSATION', '        ',
+    '!!!!!!!!', '????????', '••••••••', 'ENTROPY', 'INDETERMINACY',
+    'I prefer inconsistency.'
   ]
 
   const textInputs = document.getElementsByName('text')
@@ -239,7 +241,7 @@ function renderCanvas (canvas, ctx, ctx2, config) {
         ctx.strokeStyle = foregroundColor
         ;(showBoxes === 'true' || showBoxes === 'on') && ctx.stroke()
         // showBoxes && ctx.stroke()
-        ctx.font = `${squareSize * (fontSize / 100)}px 'Space Mono'`
+        ctx.font = `${squareSize * (fontSize / 100)}px 'Knif Mono'`
         ctx.textBaseline = 'middle'
         ctx.textAlign = 'center'
         ctx[`${textStyle}Text`](text[i], 0, 0)

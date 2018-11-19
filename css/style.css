@@ -2,6 +2,14 @@
   box-sizing: border-box;
 }
 
+@font-face {
+	font-family: 'Knif Mono';
+  src: url('/fonts/Knif_Mono/aa_knif-mono.ttf') format('tff'),
+        url('/fonts/Knif_Mono/aa_knif-mono.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
 html {
   --space-sm: 15px;
   --space-md: 20px;
@@ -26,10 +34,10 @@ body {
   margin: var(--space-md);
   align-items: start;
   justify-content: space-between;
-  font-family: 'Space Mono';
+  font-family: 'Knif Mono';
   /* font-family: 'Montserrat'; */
-  font-size: 14px;
-  line-height: 1.2;
+  font-size: 0.8rem;
+  line-height: 1.34;
   text-rendering: optimizeLegibility;
   background: var(--color-base);
   color: var(--color-contrast-lg);
