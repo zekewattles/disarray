@@ -4,9 +4,8 @@
 
 @font-face {
   font-family: 'Knif Mono';
-  src: url('KnifMono-Regular.woff2') format('woff2'),
-      url('KnifMono-Regular.woff') format('woff'),
-      url('KnifMono-Regular.ttf') format('ttf');
+  src: url('/fonts/KnifMono-Regular.woff2') format('woff2'),
+      url('/fonts/KnifMono-Regular.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
