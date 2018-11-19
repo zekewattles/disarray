@@ -4,7 +4,7 @@
 
 @font-face {
   font-family: 'KnifMono-Regular';
-  src: url('fonts/KnifMono-Regular.eot') format('embedded-opentype');
+  src: url('/fonts/KnifMono-Regular.eot') format('embedded-opentype');
   font-weight: normal;
   font-style: normal;
 }
@@ -598,7 +598,7 @@ Wi9plaKexKcQTz6EJ4/iA/gOvoMvUCfbFSOIKMv+++8/88/OLApY4YZHrP5hmFLNR5dTWjiiM59j
 oWTvUgmGBx5+L0g9jnqJoD8IhoJRHAomcSSYFlE/TQaC2m1LkcL/VWmhFszGybLJBc3xbJSxkU+v
 Jmzl51nOtrgsnVG4lUY0OiyxSh1Pcrom0sGV06bPMTPNHZnnnide9c3iXVUWTNVVRxyu9rksc8Ip
 Y8540z3VZVfNS4qarm8b9qnzq4rWFA0zd0hUiqyJsi5/+z32n1csmX+TfWG33NGUKR/Y4VlWlxdZ
-e6Uean/q15KuGnJrmaljjdeG/5TRLmW0PwB95zJRAAAA) format('woff'), url('fonts/KnifMono-Regular.ttf')  format('truetype'), url('fonts/KnifMono-Regular.svg#KnifMono-Regular') format('svg');
+e6Uean/q15KuGnJrmaljjdeG/5TRLmW0PwB95zJRAAAA) format('woff'), url('/fonts/KnifMono-Regular.ttf')  format('truetype'), url('/fonts/KnifMono-Regular.svg#KnifMono-Regular') format('svg');
   font-weight: normal;
   font-style: normal;
 }
