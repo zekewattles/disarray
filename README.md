@@ -7,4 +7,5 @@ This is a tool for creating graphic works based on the concept of composing with
 
 Code &amp; concept: 
 <a href='https://github.com/alitorbati' target='_blank'>@alitorbati</a>
+
 &amp; <a href='https://github.com/zekewattles' target='_blank'>@zekewattles</a>
