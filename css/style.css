@@ -43,15 +43,15 @@ html {
   --color-contrast-sm: white;
   --color-contrast-md: #ddd;
   --color-contrast-lg: black;
-  --color-pop: blue;
+  --color-pop: #00ff00;
 }
 
 html.dark {
-  --color-base: black;
+  --color-base: #0c0c0c;
   --color-contrast-sm: #424242;
   --color-contrast-md: #ddd;
   --color-contrast-lg: white;
-  --color-pop: indianred;
+  --color-pop: #00ff00;
 }
 
 body {
@@ -83,7 +83,7 @@ h1 {
 }
 
 canvas {
-  border: var(--space-md) solid var(--color-pop);
+  /* border: var(--space-md) solid var(--color-pop); */
   background-size: cover;
   background-position: center center;
 }
