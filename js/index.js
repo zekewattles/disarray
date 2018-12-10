@@ -17,12 +17,18 @@ function randomizeForm() {
   }
 
   const strings = [
+    'FLUXUS', ',,,,,,,,,,,', 'ORDER AND CHAOS', 'CONVERSATION', '            ',
+    '!!!!!!!!!', '???????', '••••••••', 'ENTROPY', 'INDETERMINACY', 'SILENCE',
+    '////////////////////////',
+    '################',
+    'future/ roots/ radio/ future/ roots/ radio/',
     'I gave up the notion of communication as impractical in my case.',
     'I have nothing to say and I am saying it.',
     'We need not destroy the past. It is gone.',
-    'FLUXUS', ',,,,,,,,', 'ORDER AND CHAOS', 'CONVERSATION', '        ',
-    '!!!!!!!!', '????????', '••••••••', 'ENTROPY', 'INDETERMINACY',
-    'I prefer inconsistency.'
+    'I prefer inconsistency.',
+    'I can’t understand why people are frightened of new ideas. I’m frightened of the old ones.',
+    'There is poetry as soon as we realize that we possess nothing.',
+    'There is no such thing as an empty space or an empty time.',
   ]
 
   const textInputs = document.getElementsByName('text')
