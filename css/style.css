@@ -39,7 +39,7 @@ html {
   --space-sm: 15px;
   --space-md: 20px;
 
-  --color-base: #f4f4f4;
+  --color-base: #eee;
   --color-contrast-sm: white;
   --color-contrast-md: #ddd;
   --color-contrast-lg: black;
@@ -47,8 +47,8 @@ html {
 }
 
 html.dark {
-  --color-base: #0c0c0c;
-  --color-contrast-sm: #424242;
+  --color-base: #111;
+  --color-contrast-sm: #444;
   --color-contrast-md: #ddd;
   --color-contrast-lg: white;
   --color-pop: #00ff00;
