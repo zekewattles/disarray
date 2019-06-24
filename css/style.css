@@ -45,15 +45,15 @@ html {
   --color-contrast-sm: #444;
   --color-contrast-md: #ddd;
   --color-contrast-lg: white;
-  --color-pop: #00ee11;
+  --color-pop: #0e1;
 }
 
 html.dark {
-  --color-base: #fff;
+  --color-base: #eee;
   --color-contrast-sm: white;
   --color-contrast-md: #ddd;
   --color-contrast-lg: black;
-  --color-pop: #00ee11;
+  --color-pop: #f00;
 }
 
 body {
