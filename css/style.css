@@ -2,56 +2,58 @@
   box-sizing: border-box;
 }
 
-/* @font-face {
-  font-family: '__Knif Mono_5';
-  src: url('../fonts/knifmono.eot');
-  src: url('../fonts/knifmono.woff') format('woff'), url('../fonts/knifmono.svg') format('svg');
-  font-weight: 400;
+@font-face {
+  font-family:'Pitch Sans';
+  src: url('../fonts/pitchsansregular.woff2') format('woff2');
   font-style: normal;
+  font-weight: 400;
 }
 
 @font-face {
-  font-family:'PitchWeb-Regular';
-  src: url('../fonts/PitchWeb-Regular.woff2') format('woff2'),
-    url('../fonts/PitchWeb-Regular.woff') format('woff') ;
-  font-style:normal;font-weight:400;
+  font-family:'Pitch Sans';
+  src: url('../fonts/pitchsansbold.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 700;
 }
 
 @font-face {
-  font-family:'PitchSansWeb-Medium';
-  src: url('../fonts/PitchSansWeb-Medium.woff2') format('woff2');
-  font-style:normal;font-weight:400;
-} */
-
-@font-face {
-  font-family:'PitchSansWeb-Bold';
-  src: url('../fonts/PitchSansWeb-Bold.woff2') format('woff2');
-  font-style:bold;font-weight:700;
+  font-family:'PitchSansBold';
+  src: url('../fonts/pitchsansbold.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 700;
 }
 
 @font-face {
-  font-family:'PitchSansWeb-Regular';
+  font-family: 'Pitch';
   src: url('../fonts/PitchSansWeb-Regular.woff2') format('woff2');
-  font-style:normal;font-weight:400;
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Pitch';
+  src: url('../fonts/PitchSansWeb-RegularItalic.woff2') format('woff2');
+  font-style: italic;
+  font-weight: 400;
 }
 
 html {
   --space-sm: 15px;
   --space-md: 20px;
 
-  --color-base: #eee;
-  --color-contrast-sm: white;
-  --color-contrast-md: #ddd;
-  --color-contrast-lg: black;
-  --color-pop: #00ff00;
-}
-
-html.dark {
   --color-base: #111;
   --color-contrast-sm: #444;
   --color-contrast-md: #ddd;
   --color-contrast-lg: white;
-  --color-pop: #00ff00;
+  --color-pop: #00ee11;
+}
+
+html.dark {
+  --color-base: #fff;
+  --color-contrast-sm: white;
+  --color-contrast-md: #ddd;
+  --color-contrast-lg: black;
+  --color-pop: #00ee11;
 }
 
 body {
@@ -59,11 +61,10 @@ body {
   margin: var(--space-md);
   align-items: start;
   justify-content: space-between;
-  /* font-family: 'Space Mono', monospaced; */
-  font-family: 'PitchSansWeb-Regular';
+  font-family: 'Pitch', monospaced;
   font-size: 1rem;
-  line-height: 1.34;
-  /* text-rendering: optimizeLegibility; */
+  line-height: 1.3;
+  text-rendering: optimizeLegibility;
   background: var(--color-base);
   color: var(--color-contrast-lg);
 }
@@ -74,8 +75,8 @@ body {
 }
 
 h1 {
-  /* font-weight: bold; */
-  font-family: 'PitchSansWeb-Bold';
+  font-weight: 700;
+  font-family: 'Pitch Sans';
   font-size: 2.4rem;
   margin-top: 0px;
   margin-bottom: 0px;
